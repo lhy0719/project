@@ -13,7 +13,7 @@ gulp.task('bro',function(){
 //动态刷新页面
 gulp.task('browserSync', function() {
     browserSync.init({
-        startPath: 'test/test-H5ComponentBase.html',
+        startPath: 'learnNodeJS/promise/ball.html',
         server: {
             baseDir: './'
         }
